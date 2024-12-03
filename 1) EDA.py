@@ -49,8 +49,7 @@ corr = data.drop("PGCname", axis = 1).corr()
 plt.figure(figsize = (20, 20))
 sns.heatmap(corr, cmap = 'Blues', fmt = '.1f', annot = True)
 
-# Taking only the main attributes and excluding the inf
-# and suf attributes
+# Taking only the main attributes and excluding the inf and suf attributes
 
 df_attributes = data.columns[4 : : 3]
 print(df_attributes)
