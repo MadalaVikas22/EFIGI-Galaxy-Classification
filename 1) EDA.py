@@ -30,8 +30,7 @@ for bar in bars:
     plt.text(bar.get_x() + bar.get_width()/2, yval + 0.1, yval, ha='center', va='bottom')
 plt.show()
 
-## Boxplot for each column
-# Attributes to plot
+## Boxplot for each column Attributes to plot
 columns_to_exclude = ['PGCname', 'T', 'T_inf', 'T_sup'] # T is our Target variable
 columns_to_plot = data.drop(columns=columns_to_exclude)
 # subplots
