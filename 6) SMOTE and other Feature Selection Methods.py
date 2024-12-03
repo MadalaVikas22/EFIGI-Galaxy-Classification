@@ -9,6 +9,7 @@ final_data.drop(columns = ["Arm_Curvature", "Arm_Rotation"], inplace = True) # R
                                                                              # multiplicative feature
 print(final_data.shape)
 print(final_data.head())
+
 # __________________Classification after feature selection with New Class Labels_______________
 
 # Separate the features and the target variable
